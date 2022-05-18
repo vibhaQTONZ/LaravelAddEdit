@@ -41,7 +41,7 @@
                                 <input type="password" class="form-control" name="password" value="@if(isset($user['password']))   {{ $user['password'] }}   @endif" id="password" placeholder="Enter Your Password">
                             </div>
                             <div class="col-lg-12 form-group">
-                                <label for="image">Choose File:</label>
+                                <label for="image">Choose image:</label>
                                 <input type="file" class="form-control" name="image" id="image">
                             </div>
                             </tr>
